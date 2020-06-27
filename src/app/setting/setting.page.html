@@ -1,0 +1,67 @@
+<b><ion-header>
+  <ion-toolbar color="yellow" routerLink="/tabs/menu" routerDirection="root">
+    <ion-icon slot="start" name="arrow-back"></ion-icon>
+  <ion-title style="padding-left: 10px !important;font-family: 'Nunito, san-serif;'">Setting</ion-title>
+  </ion-toolbar>
+</ion-header></b>
+
+<ion-content class="background">
+    <ion-item >
+      <div class="photo" >
+        <ion-avatar item-start>
+          <img src="./assets/img/user.png.png">
+        </ion-avatar>
+      </div>
+      <div class="label">
+        <ion-label color="dark">My Profile</ion-label>
+      </div>
+  </ion-item>
+
+
+
+
+      <ion-card-content>Profile</ion-card-content>  
+    <ion-item  routerLink="/edit" routerDirection="root" >
+      <ion-icon color="warning" name="person-circle-outline" slot="start"></ion-icon>
+      <ion-label>Edit Profile</ion-label>
+      <ion-icon name="chevron-forward" routerLink="/edit" routerDirection="root"></ion-icon>
+    </ion-item>
+ 
+
+    <ion-card-content>Notification</ion-card-content>
+      <ion-item>
+        <ion-icon color="warning"name="notifications-circle-outline" slot="start"></ion-icon>
+        <ion-label>Notification</ion-label>
+        <ion-toggle [(ngMode)]="pepperoni"></ion-toggle>
+      </ion-item>
+ 
+  
+ 
+  <ion-list >
+    <ion-list-header>
+      <ion-label >
+        Language
+      </ion-label>
+    </ion-list-header>
+  
+    <ion-item>
+      <ion-icon color="warning" name="language" slot="start"></ion-icon>
+      <ion-label>Language</ion-label>
+      <ion-select placeholder="Select One">
+        <ion-select-option value="f">Indonesian</ion-select-option>
+        <ion-select-option value="m">English</ion-select-option>
+      </ion-select>
+    </ion-item>
+  
+  </ion-list>
+
+
+  <div>
+    <ion-button class="buton" expand="block" fill="clear" style="text-transform:none;" color="red"> <b><p>Logout</p></b></ion-button>
+  </div>
+ 
+
+</ion-content>
+
+
+

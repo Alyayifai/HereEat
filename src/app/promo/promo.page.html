@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-item color="yellow">
+      <b><ion-label position="floating" color="dark" style="padding-left: 10px !important;font-family: 'Nunito, san-serif;'">Your location</ion-label></b>
+      <ion-input color="dark"></ion-input>
+    </ion-item>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding class="background">
+  <div class="button-action">
+  <b><ion-chip outline routerLink="/tabs/menu" routerDirection="root">
+    <ion-icon name="heart" color="white"></ion-icon>
+    <ion-label>Rating</ion-label>
+  </ion-chip>
+
+  <ion-chip outline routerLink="/tabs/location" routerDirection="root">
+    <ion-icon name="location" color="white" ></ion-icon>
+    <ion-label>Location</ion-label>
+  </ion-chip>
+
+  <ion-chip outline color="success">
+    <ion-label color="success"> % Promo</ion-label>
+  </ion-chip>
+
+  <ion-chip outline routerLink="/tabs/hours" routerDirection="root">
+    <ion-icon name="time" color="white"></ion-icon>
+    <ion-label>24 Hours</ion-label>
+  </ion-chip>
+</b>
+</div>
+
+<ion-card>
+  <img src="./assets/img/ayam.png">
+      <b><div class="card-title">Gudeg Pawon</div>
+      <div class="card-subtitle"> 4.5 
+        <ion-icon color ="warning"name="heart"></ion-icon>
+        <ion-icon color ="warning"name="heart"></ion-icon>
+        <ion-icon color ="warning"name="heart"></ion-icon>
+        <ion-icon color ="warning"name="heart"></ion-icon>
+        (5 review)
+      </div>
+      <div class="card-subtitle"> <ion-icon color="secondary" name="location"></ion-icon> JL. Janturan UH/IV No.36, warungboto, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta</div>
+      <div class="card-subtitle"> 24 Hours</div></b>
+</ion-card>
+
+
+</ion-content>

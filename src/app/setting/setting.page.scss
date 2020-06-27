@@ -1,0 +1,44 @@
+ion-content.background{
+    --ion-background-color:white;
+}
+
+page-profile{
+    ion-avatar img{
+        width: 300px;
+    }
+}
+
+ion-icon{
+    margin-left: 10px;
+}
+
+.photo{
+    margin-top: 10px;
+    width: 80px;
+}
+.label{
+    color:white;
+    margin-left: 20px;
+}
+.button{
+    margin-top: 10px;
+}
+
+ion-toggle {
+    --background:#FFE75E ;
+    --background-checked: #E97E1B;
+  
+    --handle-background: #E97E1B;
+    --handle-background-checked: #FFE75E;
+  }
+
+.button{
+    background-color: red;
+    color:white;
+    width: 370px;
+    margin-left: 18px;
+    margin-top: 80px;
+    font-size: medium;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 3px;
+}

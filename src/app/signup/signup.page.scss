@@ -1,0 +1,63 @@
+ion-content.background{
+    --ion-background-color:white;
+}
+
+.content{
+    position: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.buttons-action{
+    
+    margin-left:5px;
+}
+
+.signup-text{
+    font-size: large;
+    color:green;
+    text-align: center;
+    text-transform: none;
+    font-family: 'Nunito',sans-serif;
+    margin-left: 40px;
+
+}
+
+.signin-text{
+    font-size: large;
+    color:grey;
+    text-align: center;
+    text-transform: none;
+    font-family: 'Nunito',sans-serif;
+    margin-left: 50px;
+}
+
+ion-input{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    font-size: medium;
+    margin-right: 13px;
+    color: black;
+    width: 343px;
+}
+
+.actionbutton{
+    background-color: #79D70F;
+    color: white;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 13px;
+    font-size: medium;
+    font-family: 'Nunito', sans-serif;
+}
+
+.buton{
+    width: 343px;
+    margin-left: 16px;
+    margin-top: 20px;
+    font-size: medium;
+    font-family: 'Nunito', sans-serif;
+    color: red;
+}
+
+
