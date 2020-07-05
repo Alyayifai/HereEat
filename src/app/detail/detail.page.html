@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar color="yellow" routerLink="/tabs/menu" routerDirection="root">
+  <ion-toolbar color="yellow" routerLink="/tabs/home" routerDirection="root">
     <ion-icon class="panah" slot="start" name="arrow-back"></ion-icon>
     <b> <ion-title style="padding-left: 10px !important;font-family: 'Nunito, san-serif;'">Detail Menu</ion-title></b>
   </ion-toolbar>
@@ -7,7 +7,14 @@
 
 <ion-content>
   <ion-card>
+      <ion-slides pager>
+      <ion-slide>
     <img src="./assets/img/ayam.png" >
+  </ion-slide>
+  <ion-slide>
+    <img src="./assets/img/gudeg.png" >
+  </ion-slide>
+</ion-slides>
         <b><div class="card-title"><ion-icon name="heart-outline" color="danger" routerLink="/tabs/favorite" routerDirection="root"></ion-icon> Gudeg Pawon</div>
         <div class="card-subtitle"> 4.5 
           <ion-icon color ="warning"name="heart"></ion-icon>

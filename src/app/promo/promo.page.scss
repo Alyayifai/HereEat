@@ -4,13 +4,17 @@ ion-content.background{
 }
 .button-action{
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 ion-chip{
+    margin-left: 5px;
     color: grey;
-    font-size: small;
+    font-size: medium;
     font-family: 'Nunito', sans-serif; 
 }
+
 
 .card-title{
     font-size: large;
@@ -24,6 +28,12 @@ ion-chip{
 .item-content{
     background-color: whitesmoke;
     margin-top: 10px;
+}
+
+.card-subtitle-sub{
+    color: red;
+    font-size: 15px;
+    font-family: 'Nunito',sans-serif;
 }
 
 ion-card{

@@ -8,9 +8,10 @@ const routes: Routes = [
     path: '',
     component: TabsPage,
     children:[
+  
   {
-    path: 'menu',
-    loadChildren: () => import('../menu/menu.module').then( m => m.MenuPageModule)
+    path: 'home',
+    loadChildren: () => import('../home/home.module').then( m => m.HomePageModule)
   },
   {
     path: 'history',
@@ -38,14 +39,14 @@ const routes: Routes = [
   },
   {
     path:  '',
-    redirectTo: '/tabs/menu',
+    redirectTo: '/utama',
     pathMatch: 'full'
   }
 ]
   },
   {
     path: '',
-    redirectTo: '/tabs/menu',
+    redirectTo: '/utama',
     pathMatch: 'full'
   }
 ];

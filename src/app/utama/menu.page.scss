@@ -1,0 +1,27 @@
+.background{
+    --ion-background-color:#FFE75E;
+}
+
+.container{
+    position: center;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin-top: 30%;
+} 
+
+.button{
+    background-color: #E97E1B;
+    position: center;
+    color: white;
+    width: 250px;
+    margin-top: 120px;
+    font-size: medium;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 3px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}

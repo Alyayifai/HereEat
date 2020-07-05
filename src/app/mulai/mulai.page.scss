@@ -3,13 +3,16 @@ ion-content.background{
 }
 
 .content{
+    
     position: center;
     margin-left: 20px;
     margin-right: 20px;
+    
 }
 
-.buttons-action{
-    margin-left:5px;
+.button-action{
+    display: flex;
+    justify-content: center;
 }
 
 .signup-text{
@@ -18,7 +21,7 @@ ion-content.background{
     text-align: center;
     text-transform: none;
     font-family: 'Nunito', sans-serif;
-    margin-left: 40px;
+    margin-left: 1.5cm;
 
 }
 
@@ -28,7 +31,6 @@ ion-content.background{
     text-align: center;
     text-transform: none;
     font-family: 'Nunito', sans-serif;
-    margin-left: 50px;
 }
 
 ion-input{
@@ -37,8 +39,6 @@ ion-input{
     font-size: medium;
     margin-right: 13px;
     color: black;
-    width: 343px;
-    
 }
 
 .actionbutton{

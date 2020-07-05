@@ -4,26 +4,27 @@ ion-card{
     margin-top: 10px;
 }
 
-ion-item{
-    margin-top: 10px;
-}
 
 .card-title{
+  
+    margin-top: 10px;
     font-size: large;
     font-family: 'Nunito',sans-serif;
 }
 .card-subtitle{
+    
     font-size: 15px;
     font-family: 'Nunito',sans-serif;
 }
 
 .card-subtitle-title{
+    
     font-size: 15px;
     font-family: 'Nunito',sans-serif;
     color: black;
 }
 .card-title-title{
-    margin-left: 160px;
+    margin-left: 40%;
     font-size: large;
     font-family: 'Nunito',sans-serif;
     color: black;
@@ -34,32 +35,38 @@ ion-item{
 
 .buttons-action{
     font-size: small;
+    width: auto;
+    display: flex;
+    justify-content: center;
 }
 .buton{
-    margin-left: 80px;
+    margin-left: 40px;
 }
 .buto{
-    margin-left: 20px;
+    display: flex;
+    margin-left: 50px;
 }
 .panah{
+    display: flex;
     margin-left: 10px;
 }
 .signup-text{
     font-size:medium;
     color: #3dc2ff;
-    text-align: center;
     text-transform: none;
     font-family: 'Nunito', sans-serif;
-    margin-left: 10px;
+    margin-left: 2px;
+   
 }
 
-
-
 .signin-text{
+    width: auto;
     font-size: medium;
     color:#2dd36f;
     text-align: center;
     text-transform: none;
     font-family: 'Nunito', sans-serif;
-    margin-left: 10px;
+    margin-left: 2px;
+
+    
 }

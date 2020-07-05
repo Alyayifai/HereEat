@@ -8,9 +8,9 @@ ion-content.background{
     margin-right: 20px;
 }
 
-.buttons-action{
-    
-    margin-left:5px;
+.button-action{
+    display: flex;
+    justify-content: center;
 }
 
 .signup-text{
@@ -18,8 +18,8 @@ ion-content.background{
     color:green;
     text-align: center;
     text-transform: none;
-    font-family: 'Nunito',sans-serif;
-    margin-left: 40px;
+    font-family: 'Nunito', sans-serif;
+    margin-left: 1.5cm;
 
 }
 
@@ -28,8 +28,7 @@ ion-content.background{
     color:grey;
     text-align: center;
     text-transform: none;
-    font-family: 'Nunito',sans-serif;
-    margin-left: 50px;
+    font-family: 'Nunito', sans-serif;
 }
 
 ion-input{
@@ -38,7 +37,6 @@ ion-input{
     font-size: medium;
     margin-right: 13px;
     color: black;
-    width: 343px;
 }
 
 .actionbutton{
@@ -52,9 +50,11 @@ ion-input{
 }
 
 .buton{
-    width: 343px;
-    margin-left: 16px;
+    
+    position: center;
     margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 13px;
     font-size: medium;
     font-family: 'Nunito', sans-serif;
     color: red;

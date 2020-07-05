@@ -12,6 +12,7 @@ const routes: Routes = [
     redirectTo: 'tabs',
     pathMatch: 'full'
   },
+  
   {
     path: 'mulai',
     loadChildren: () => import('./mulai/mulai.module').then( m => m.MulaiPageModule)
@@ -21,8 +22,8 @@ const routes: Routes = [
     loadChildren: () => import('./signup/signup.module').then( m => m.SignupPageModule)
   },
   {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+    path: 'utama',
+    loadChildren: () => import('./utama/menu.module').then( m => m.MenuPageModule)
   },
   {
     path: 'promo',

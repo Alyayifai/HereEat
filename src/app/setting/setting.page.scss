@@ -32,13 +32,14 @@ ion-toggle {
     --handle-background-checked: #FFE75E;
   }
 
-.button{
+.buton{
     background-color: red;
-    color:white;
-    width: 370px;
-    margin-left: 18px;
-    margin-top: 80px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20%;
+    margin-left: 15px;
+    margin-right: 13px;
     font-size: medium;
     font-family: 'Nunito', sans-serif;
-    border-radius: 3px;
 }
+

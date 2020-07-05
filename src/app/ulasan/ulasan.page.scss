@@ -11,7 +11,9 @@
     font-family: 'Nunito',sans-serif;
 }
 .card-title-title{
-    margin-left: 140px;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 35%;
     font-size: large;
     font-family: 'Nunito',sans-serif;
     color: black;
@@ -22,25 +24,30 @@
     margin-top: 10px;
 }
 .imt{
-    margin-top: 15px;
+    margin-top: 5px;
     height: 300px;
-    margin-left: 120px;
+    margin-left: 30%;
 }
 .cirds{
     height: 87px;
     margin-top: 10px;
 }
 .photo{
-    margin-left: 330px;
+    margin-top: 1px;
+    margin-left: 72%;
 }
 
 .actionbutton{
     background-color: #79D70F;
-    width: 350px;
+    width: auto;
     border-radius: 5px;
-    margin-left: 30px;
-    margin-right: 13px;
     margin-top: 50px;
+    margin-left: 1%;
     font-size: medium;
     font-family: 'Nunito', sans-serif;
+}
+.picture{
+    margin-top: 10px;
+    margin-left: 30%;
+
 }

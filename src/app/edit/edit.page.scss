@@ -1,24 +1,16 @@
 .img{
     width: 85px;
-    margin-left: 155px;
-    margin-top: 30px;
+    margin-left: 37%;
+    margin-top: 25px;
 }
 
 ion-card{
     background-color: white;
     height:200px;
-    width: 390px;
+    width: auto;
     margin-left: 10px;
 }
 
-ion-chip{
-    font-size: medium;
-    font-family: 'Nunito', sans-serif; 
-    margin-left: 150px;
-    margin-top: 15px;
-    color:#FFE75E;
-
-}
 
 ion-label{
     font-size: medium;
@@ -31,17 +23,13 @@ ion-input{
 }
 
 
-ion-icon{
-    margin-left: 10px;
-}
-
 .actionbutton{
     background-color: #79D70F;
-    width: 300px;
+    color: white;
     border-radius: 5px;
-    margin-left: 53px;
+    margin-top: 20%;
+    margin-left: 15px;
     margin-right: 13px;
-    margin-top: 100px;
     font-size: medium;
     font-family: 'Nunito', sans-serif;
 }
@@ -51,4 +39,23 @@ ion-icon{
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 20px;
+}
+
+.cards{
+    height: 183px;
+    margin-top: 10px;
+}
+
+.photo{
+    margin-top: 1px;
+    margin-left: 37%;
+}
+
+.picture{
+    margin-top: 10px;
+    margin-left: 35%;
+
+}
+.icon{
+    margin-left: 4%;
 }

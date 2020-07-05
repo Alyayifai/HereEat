@@ -18,14 +18,14 @@
 
   <ion-card class="cards">
     <ion-item class="itm">
-      <ion-textarea class="itm" placeholder="Enter more information here..."></ion-textarea>
+      <ion-textarea placeholder="Enter more information here..."></ion-textarea>
     </ion-item>
-    <ion-item class="photo">
-    <ion-icon name="camera" ></ion-icon>
-  </ion-item>
   <ion-item class="photo">
-    <ion-icon name="image"  ></ion-icon>
+    <ion-button color="light" (click)="getCamera()"><ion-icon color="dark" name="camera" ></ion-icon></ion-button>
+    <ion-button color="light" (click)="getGallery()"> <ion-icon name="image" color="dark" ></ion-icon></ion-button>
   </ion-item>
+    <div class="picture">
+    <img src="{{imgURL}}" width="150px" height="150px"/></div>
   </ion-card>
 
   <ion-card class="cirds">
@@ -40,10 +40,5 @@
   </ion-card>
 
   <ion-button class="actionbutton"expand="block" style="text-transform:none;" color="#79D70F" routerLink="/detail" routerDirection="root"><b>Done</b></ion-button>
-  
-
-
-  
-  
 
 </ion-content>
